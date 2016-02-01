@@ -115,11 +115,11 @@ android {   //构建android项目的所有配置都在这里完成
 
 //渠道Flavors
     productFlavors {
-        GooglePlay {}
+      //  GooglePlay {}
         xiaomi {  manifestPlaceholders = [UMENG_CHANNEL_VALUE:"xiaomi" ]}
-        umeng {
-            manifestPlaceholders = [UMENG_CHANNEL_VALUE:"umeng" ]
-        }
+//        umeng {
+  //          manifestPlaceholders = [UMENG_CHANNEL_VALUE:"umeng" ]
+    //    }
         //  baidu {
         //   manifestPlaceholders = [UMENG_CHANNEL_VALUE: "baidu"]
         //  }
